@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+.label {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: #fff;
+  &:focus {
+    outline: none;
+  }
+}
+
+.textarea {
+  height: 15rem;
+  font-size: 1.3rem;
+}

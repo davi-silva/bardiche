@@ -1,0 +1,10 @@
+export { default as LogoBBranca } from './logo-b-branca.png';
+export { default as LogoBPreta } from './logo-b-preta.png';
+export { default as LogoB } from './logo-b.png';
+export { default as LogoBranca } from './logo-branca.png';
+export { default as LogoPreta } from './logo-preta.png';
+export { default as Logo } from './logo.png';
+export { default as Fundo1 } from './fundo-1.png';
+export { default as Fundo2 } from './fundo-2.png';
+export { default as Machado } from './machado.jpg';
+export { default as Servicos } from './servicos.jpg';
