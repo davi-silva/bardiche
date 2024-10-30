@@ -6,7 +6,7 @@ import styles from './index.module.scss';
 
 const Services = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="services">
       <div
         className={styles.servicosImage}
         style={{ backgroundImage: `url(${Servicos.src})` }}

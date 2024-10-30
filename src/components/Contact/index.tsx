@@ -50,6 +50,7 @@ const Contact = () => {
 
   return (
     <section
+      id="contact"
       className={styles.container}
       style={{
         backgroundImage: `url(${Fundo2.src})`,

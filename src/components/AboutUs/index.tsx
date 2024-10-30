@@ -6,7 +6,7 @@ import styles from './index.module.scss';
 
 const AboutUs = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about-us">
       <div className={styles.aboutUsContent}>
         <h2>Sobre nós</h2>
         <p>

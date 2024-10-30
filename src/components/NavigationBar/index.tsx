@@ -21,13 +21,13 @@ const NavigationBar = () => {
         </Link>
         <ul className={styles.menu}>
           <li>
-            <Link href="/servicos">Serviços</Link>
+            <Link href="#services">Serviços</Link>
           </li>
           <li>
-            <Link href="/sobre-nos">Sobre nós</Link>
+            <Link href="#about-us">Sobre nós</Link>
           </li>
           <li>
-            <Link href="/contato">Contato</Link>
+            <Link href="#contact">Contato</Link>
           </li>
         </ul>
       </div>
