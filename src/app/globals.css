@@ -10,6 +10,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #ddd;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

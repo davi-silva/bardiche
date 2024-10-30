@@ -11,7 +11,13 @@ const NavigationBar = () => {
     <nav className={styles.nav}>
       <div className={styles.container}>
         <Link href="/">
-          <Image src={LogoBBranca} width={64} height={64} alt="Logo" />
+          <Image
+            className={styles.brand}
+            src={LogoBBranca}
+            width={70}
+            height={70}
+            alt="Logo"
+          />
         </Link>
         <ul className={styles.menu}>
           <li>

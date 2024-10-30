@@ -1,6 +1,6 @@
 .nav {
   background-color: #000;
-  padding: 1rem 0;
+  padding: 0.2rem 0;
   display: flex;
   justify-content: center;
 }
@@ -10,13 +10,18 @@
   position: relative;
 }
 
+.brand {
+  height: auto;
+  width: 65px;
+}
+
 .menu {
   position: absolute;
   left: 50%;
   top: 0;
   display: flex;
   gap: 2rem;
-  transform: translate(-50%, 40%);
+  transform: translate(-50%, 70%);
   li {
     list-style: none;
     a {
